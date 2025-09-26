@@ -8,4 +8,15 @@ Ce dépôt suit la méthode de vibe coding de Mozi pour piloter une campagne de 
 - `player_input.md` fait désormais office de terminal d'interaction : il est réécrit à chaque itération pour résumer la scène en cours et demander explicitement au joueur quelles actions entreprendre. La réponse du joueur devient le prompt de l'itération suivante.
 - Un journal narratif incrémental est consigné dans `docs/histoire_session_en_cours.md` afin que le joueur puisse relire l'évolution de la partie.
 
+## Jets de dés
+- Les résolutions aléatoires doivent reproduire l'utilisation de dés physiques (d4, d6, d8, d10, d12, d20, etc.).
+- Générer chaque jet via la console en exécutant :
+  ```bash
+  python - <<'PY'
+  import random
+  print(random.randint(1, N))  # remplacer N par la valeur maximale du dé
+  PY
+  ```
+- Annoncer dans la narration le dé utilisé et le résultat obtenu, puis archiver le jet dans les journaux adéquats.
+
 Consulter `docs/requirements.md` pour la description complète du projet et `docs/backlog.md` pour l'historique des contributions.
