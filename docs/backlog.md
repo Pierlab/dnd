@@ -8,3 +8,4 @@
 - 2025-09-29 | Formalisation du terminal d'interaction joueur, narration de la filature de Kaelith et mise à jour des états du monde et des jets correspondants.
 - 2025-09-30 | Clarification de la logique de conduite de partie dans `AGENTS.md` et ajout des directives de jets de dés basées sur la console dans la documentation.
 - 2025-09-30 | Rapport de la purge de la citerne par Lyra, coordination avec Maelis et mise à jour des options joueurs et de l'état du monde.
+- 2025-09-30 | Rapport sur la dispersion du filament d'Ombre, coordination des mandats de Maelis et mise à jour des options joueur incluant la surveillance des serres sereluniennes.
