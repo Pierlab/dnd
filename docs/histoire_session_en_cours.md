@@ -39,3 +39,19 @@ Ce journal recueille l'évolution détaillée de la partie actuelle. Chaque inte
 ### Questions du joueur et réponses
 - Soutien de Maelis : elle met à disposition un relais de messagers et des agents loyaux capables d'occuper les Lames pendant que Lyra agit.
 - Conséquences immédiates : la maison Dyrion resserre la sécurité et tente de comprendre pourquoi la citerne est revenue à la normale, offrant une fenêtre étroite avant leur riposte.
+
+## 2025-09-30T14:50:00Z
+
+### Résumé narratif
+- Sur l'insistance de Lyra, Maelis scelle trois mandats d'urgence qui gelent les discussions du Conseil et dépêchent ses messagers pour rassurer les factions pacifistes, verrouillant provisoirement la trêve autour de la chancellerie.
+- Lyra plonge à nouveau dans la citerne purifiée et suit le filament d'Ombre, mais la traînée se disperse dans un maillage de runes leurres : elle ne récolte qu'une direction fragmentaire pointant vers les serres sereluniennes situées sous la verrière nord.
+- Profitant d'un repli dans les conduits, elle tresse un appel de brume vers Kaelith ; l'espion répond par un écho étouffé qui évoque une "lumière tronquée" avant que la connexion ne soit étouffée par une interférence métallique.
+
+### Conséquences mécaniques
+- Jet de Magie (d20, difficulté 15) échoué avec un résultat de 2 : le filament est brouillé ; Lyra gagne uniquement une direction approximative et laisse derrière elle une pulsation perceptible par les veilleurs d'Ombre.
+- Jet d'Influence (d20, difficulté 12) partiellement réussi avec un résultat de 10 : le message atteint Kaelith mais la réponse est fragmentée, suggérant qu'il est sous surveillance ou qu'un amortisseur runique filtre leurs échanges.
+- Les mandats de Maelis accroissent la protection politique (+1 avantage circonstanciel aux prochaines négociations) mais attisent la méfiance de la maison Dyrion qui dépêche des auditeurs vers les serres.
+
+### Questions du joueur et réponses
+- Interprétation de la "lumière tronquée" : Kaelith emploie ce code lorsqu'une voie est surveillée par un miroir d'anti-brume ; il indique que la route vers le coordinateur est piégée par un dispositif de réflexion.
+- Délai avant dissipation complète du filament : sans rituel supplémentaire, la signature se dissipera d'ici deux rotations de sablier (≈1 heure), forçant Lyra à agir rapidement ou à renforcer la piste.
