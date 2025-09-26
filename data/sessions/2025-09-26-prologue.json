@@ -1,0 +1,97 @@
+{
+  "session_id": "2025-09-26-A",
+  "date": "2025-09-26",
+  "arc": "Arc I – Braises d'Empire",
+  "saison": "Automne 1235 FA",
+  "prelude": "Valoria chancelle tandis que l'Ombre d'Ashkar s'insinue dans les ruelles. Lyra Valen est convoquée par le Conseil des Huit Blasons pour négocier une trêve avec Thorgar et identifier la source des sabotages arcanes.",
+  "objectifs": [
+    {
+      "description": "Sécuriser un sauf-conduit diplomatique vers les clans de Thorgar.",
+      "etat": "en_cours"
+    },
+    {
+      "description": "Identifier l'origine des résidus d'ombre découverts dans les réservoirs de brume de Valoria.",
+      "etat": "en_cours"
+    }
+  ],
+  "gm_notes": [
+    "La maison Veyr souhaite profiter de la mission pour affaiblir une faction rivale, les Lames de Cobalte.",
+    "Un espion de Serelune, Kaelith, observe la convocation et cherchera à intercepter Lyra en sortie de conseil.",
+    "Les flux de magie sont instables : tout jet de Magie subira désavantage tant que le réservoir central reste corrompu."
+  ],
+  "scenes": [
+    {
+      "ordre": 1,
+      "titre": "Salle des miroirs du Conseil",
+      "enjeu": "Convaincre les nobles d'autoriser une mission diplomatique non armée.",
+      "tests": [
+        {
+          "type": "Influence",
+          "difficulte": 12,
+          "modificateurs": ["Avantage si Lyra invoque son lien avec la chancelière Maelis"],
+          "reussite": "Obtention d'un sauf-conduit et d'un messager officiel.",
+          "echec": "Le conseil impose un chevalier escortant chargé de surveiller Lyra."
+        }
+      ],
+      "complications": ["Interruption par la maison Lames de Cobalte qui dévoile un témoin compromettant."],
+      "informations": ["Rumeurs de rituels interdits menés dans les catacombes du quartier des artificiers."]
+    },
+    {
+      "ordre": 2,
+      "titre": "Ruelles embrumées",
+      "enjeu": "Traquer l'espion de Serelune avant qu'il ne transmette ses observations.",
+      "tests": [
+        {
+          "type": "Deplacement",
+          "difficulte": 14,
+          "modificateurs": ["Désavantage si Lyra est accompagnée par un garde encombrant"],
+          "reussite": "Lyra intercepte Kaelith et obtient un fragment de carte menant à un culte de l'Ombre.",
+          "echec": "Kaelith s'échappe et répand de fausses informations sur Valoria."
+        },
+        {
+          "type": "Crochetage",
+          "difficulte": 10,
+          "modificateurs": ["Avantage avec le sachet de poussière de brume"],
+          "reussite": "Accès à une planque contenant des messages chiffrés.",
+          "echec": "Piège arcanique déclenché : Lyra subit 1d6 dégâts de froid."
+        }
+      ],
+      "complications": ["Manifestation mineure de l'Ombre : tentacules de brume qui affaiblissent les tests de Magie."],
+      "informations": ["Serelune craint une alliance Valoria/Thorgar et prépare une contre-propagande."]
+    },
+    {
+      "ordre": 3,
+      "titre": "Chambre des réservoirs",
+      "enjeu": "Purifier la citerne de brume et identifier le saboteur.",
+      "tests": [
+        {
+          "type": "Connaissances",
+          "difficulte": 13,
+          "modificateurs": ["Avantage si les messages chiffrés sont décryptés"],
+          "reussite": "Découverte que la corruption provient d'un fragment de l'Obélisque transporté par contrebande.",
+          "echec": "L'instabilité augmente et impose un test de Magie supplémentaire pour contenir l'onde de choc."
+        },
+        {
+          "type": "Magie",
+          "difficulte": 15,
+          "modificateurs": ["Désavantage permanent tant que la citerne n'est pas stabilisée"],
+          "reussite": "La citerne est purifiée, réduisant la progression de l'Ombre à Valoria.",
+          "echec": "Explosion arcanique : la corruption gagne un quartier et augmente la tension diplomatique."
+        }
+      ],
+      "complications": ["Les Lames de Cobalte arrivent avec un mandat pour saisir la citerne."],
+      "informations": ["Mention d'une cabale appelée les Veilleurs du Voile, liée à l'Ombre d'Ashkar."]
+    }
+  ],
+  "decisions_attendues": [
+    "Lyra priorise-t-elle la diplomatie ou la traque de l'espion après le conseil ?",
+    "Utilisera-t-elle les messages chiffrés pour négocier avec Serelune ou les remettre au Conseil ?",
+    "Acceptera-t-elle la présence d'un chevalier escortant imposé par les nobles ?"
+  ],
+  "cliffhanger_prevu": "Au terme de la session, une fissure de l'Ombre s'ouvrira sous la citerne, révélant une voix qui connaît le passé de Lyra.",
+  "preparation_prochaine_session": [
+    "Préparer les conséquences diplomatiques selon que le chevalier escortant reste en vie ou non.",
+    "Développer une scène d'audience à Thorgar si Lyra obtient le sauf-conduit.",
+    "Mettre à jour la jauge de corruption et déterminer les effets régionaux correspondants."
+  ]
+}

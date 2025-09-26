@@ -1,0 +1,94 @@
+{
+  "id": "lyra_valen",
+  "nom": "Lyra Valen",
+  "race": "Humaine",
+  "classe": "Vox Ombreuse",
+  "niveau": 1,
+  "historique": "Erudits de l'Obélisque",
+  "principes": {
+    "Fidélité": 1,
+    "Ambition": 2,
+    "Compassion": 1,
+    "Pragmatique": 2,
+    "Foi": 0,
+    "Rébellion": 1
+  },
+  "caracteristiques": {
+    "FOR": 10,
+    "DEX": 16,
+    "CON": 12,
+    "INT": 14,
+    "SAG": 12,
+    "CHA": 15
+  },
+  "domaines": {
+    "Dialogue": 3,
+    "Magie": 1,
+    "Combat": 1,
+    "Deplacement": 3,
+    "Crochetage": 2,
+    "Artisanat": 0,
+    "Connaissances": 2,
+    "Survie": 1,
+    "Influence": 3
+  },
+  "points_de_vie": 9,
+  "classe_armure": 14,
+  "vitesse": "9 m",
+  "capacites": [
+    {
+      "nom": "Voix du secret",
+      "description": "Confère avantage aux tests de Dialogue pour extraire des informations auprès d'interlocuteurs hésitants."
+    },
+    {
+      "nom": "Masque des ombres",
+      "description": "Permet de dépenser une action bonus pour gagner avantage en Discrétion jusqu'au prochain tour."
+    }
+  ],
+  "equipement": {
+    "armes": ["Rapière finement gravée", "Dague de secours"],
+    "armures": ["Armure de cuir clouté"],
+    "objets": [
+      "Codex de l'Obélisque partiellement déchiffré",
+      "Sceau d'émissaire valorien",
+      "Sachet de poussière de brume"
+    ]
+  },
+  "relations": {
+    "factions": [
+      {
+        "nom": "Valoria",
+        "reputation": 1,
+        "notes": "Consultante officieuse du Conseil des Huit Blasons."
+      },
+      {
+        "nom": "Serelune",
+        "reputation": -1,
+        "notes": "Soupçonnée d'avoir subtilisé des archives maritimes."
+      }
+    ],
+    "contacts": [
+      {
+        "nom": "Chancelière Maelis Veyr",
+        "role": "Mentore politique",
+        "description": "Noble valorienne qui parraine Lyra pour négocier une trêve fragile."
+      },
+      {
+        "nom": "Scribe runique Brann d'Arkal",
+        "role": "Ancien allié thorgari",
+        "description": "Attend des preuves de bonne foi avant de rouvrir les routes du nord."
+      }
+    ]
+  },
+  "objectifs_personnels": [
+    "Découvrir qui manipule les flux d'information au sein du conseil valorien.",
+    "Réhabiliter les érudits accusés de trahison après la fracture."
+  ],
+  "etat_actuel": {
+    "conditions": [],
+    "ressources": {
+      "inspiration": false,
+      "corruption_ombre": 0
+    }
+  }
+}
