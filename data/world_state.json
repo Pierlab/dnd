@@ -11,6 +11,18 @@
         "Soupçons renforcés envers les espions de Serelune dans la capitale.",
         "Première manifestation notable de l'Ombre à Valoria depuis six mois."
       ]
+    },
+    {
+      "date": "2025-09-26",
+      "arc": "Arc I – Braises d'Empire",
+      "saison": "Automne 1235 FA",
+      "session": "2025-09-26-A",
+      "evenement": "Lyra refuse l'escorte des Lames de Cobalte en invoquant son lien avec Maelis et se lance à la poursuite de l'espion Kaelith.",
+      "impact": [
+        "Crédibilité politique renforcée pour la chancelière Maelis face au Conseil.",
+        "Les Lames de Cobalte soupçonnent une fuite d'informations interne et resserrent leurs surveillances.",
+        "Indice d'un complot anti-trêve reliant Serelune à une maison noble valorienne."
+      ]
     }
   ],
   "factions": {
@@ -33,7 +45,8 @@
       ],
       "menaces": [
         "Infiltration des Veilleurs du Voile",
-        "Usure des Lames de Cobalte"
+        "Usure des Lames de Cobalte",
+        "Complot anti-trêve au sein du Conseil"
       ]
     },
     "Thorgar": {
@@ -77,7 +90,8 @@
       ],
       "menaces": [
         "Instabilité des marées magiques",
-        "Division entre le clergé et les corsaires"
+        "Division entre le clergé et les corsaires",
+        "Couverture de Kaelith compromise à Valoria"
       ]
     },
     "Khar'Seth": {
@@ -140,7 +154,7 @@
       "nom": "Trêve fragile",
       "niveau": 1,
       "tendance": "dégringolade",
-      "description": "L'accord entre Valoria et Thorgar tient à la réussite de la mission diplomatique de Lyra."
+      "description": "L'accord entre Valoria et Thorgar dépend désormais de la capacité de Lyra à déjouer le complot anti-trêve tout en sécurisant le sauf-conduit."
     }
   ]
 }
