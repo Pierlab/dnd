@@ -1,37 +1,45 @@
 # Interface joueur — Session 2025-09-26-A
 
 ## Situation actuelle
-- Lyra a filé Kaelith jusqu'aux catacombes des artificiers et confirmé l'implication secrète de la maison Dyrion.
-- Elle détient un tube cristallin contenant un message chiffré intitulé « Glas de la Trêve » ainsi qu'une carte partielle des conduits alimentant la citerne de brume.
-- Les Lames de Cobalte ignorent encore sa disparition, mais des manifestations d'Ombre épaississent la brume dans le quartier.
+- Lyra a purgé la citerne principale grâce au rituel improvisé par Maelis, dissipant la nappe d'Ombre qui alimentait le complot « Glas de la Trêve ».
+- Son retour précipité a toutefois éveillé les soupçons : des patrouilles des Lames de Cobalte fouillent désormais les galeries de maintenance.
+- La maison Dyrion a resserré la sécurité de ses relais secrets, mais ignore encore que Lyra a décodé l'ensemble du protocole de sabotage.
+- Maelis a mobilisé un cercle restreint de fidèles prêts à fournir messagers, distractions et couverture politique pour les prochaines actions.
 
 ## Informations clés
-- **Dame Ilyana Corven** (chevalier imposé par les Lames) reste loyale à Valoria mais doit des faveurs à la maison Dyrion.
-- **Risques de la citerne** : en cas d'échec de purification, une onde de froid frappera le quartier des artisans avant d'exposer le palais à l'Ombre.
-- **Support potentiel** : la chancelière Maelis peut fournir un appui politique ou une équipe de cryptographes si elle est informée.
+- **Relais de la maison Dyrion** : trois caches identifiées alimentent la citerne en condensat d'Ombre ; deux restent actives et sont surveillées par des agents masqués.
+- **Patrouilles des Lames de Cobalte** : en alerte moyenne ; si elles trouvent des traces du rituel, elles exigeront une audience immédiate auprès du Conseil.
+- **Réserve d'énergie résiduelle** : le contrecoup de la purge laisse un filament d'Ombre pouvant être suivi jusqu'au coordinateur serelunien.
+- **Ressources de Maelis** : cryptographes disponibles, relais de messagers discrets, possibilité d'émettre des mandats scellés contre Dyrion (au risque de dévoiler la source).
 
 ## Options immédiates
-1. **Poursuivre Kaelith maintenant**
+1. **Exploiter la piste du filament d'Ombre**
+   - Domaine pressenti : Perception / Magie.
+   - Objectif : remonter la signature résiduelle jusqu'au coordinateur serelunien avant qu'elle ne se dissipe.
+   - Risque : croiser les patrouilles des Lames ou tomber sur un piège runique.
+2. **Frappes coordonnées sur les caches Dyrion restantes**
    - Domaine pressenti : Déplacement / Combat.
-   - Objectif : capturer l'espion avant qu'il n'alerte Serelune.
-   - Risque : se retrouver isolée face à la manifestation d'Ombre.
-2. **Analyser le message « Glas de la Trêve »**
-   - Domaine pressenti : Connaissances (avantage si vous mentionnez l'usage des glyphes récupérés ou l'aide de Maelis).
-   - Objectif : découvrir le plan complet de sabotage et identifier les complices.
-   - Risque : temps nécessaire permettant à Kaelith de disparaître.
-3. **Infiltrer les conduits de la citerne immédiatement**
-   - Domaine pressenti : Crochetage / Magie.
-   - Objectif : neutraliser la source de corruption avant que la trêve ne soit compromise.
-   - Risque : tomber dans un piège runique sans soutien.
+   - Objectif : neutraliser les relais encore actifs et capturer leurs agents.
+   - Risque : affrontement direct avec des gardes d'élite et perte de la couverture politique si l'opération échoue.
+3. **Manœuvre politique avec Maelis**
+   - Domaine pressenti : Influence.
+   - Objectif : utiliser les mandats scellés pour isoler la maison Dyrion, forcer les Lames de Cobalte à coopérer et sécuriser la trêve.
+   - Risque : révéler prématurément les preuves, permettant à Serelune d'adapter son complot.
+4. **Effacer les traces du rituel dans les galeries**
+   - Domaine pressenti : Crochetage / Discrétion.
+   - Objectif : réduire la surveillance des Lames en supprimant tout indice de la purge.
+   - Risque : temps investi laissant le coordinateur serelunien se retrancher.
 
 ## Autres possibilités
-- Solliciter Dame Ilyana Corven pour tester sa loyauté ou la retourner contre la maison Dyrion.
-- Rejoindre Maelis pour préparer une riposte politique et coordonner une opération plus large.
+- Confier à Dame Ilyana une mission d'écran pour détourner les Lames et mesurer sa loyauté.
+- Rétablir un contact discret avec Kaelith pour tenter de retourner l'espion avec les informations décodées.
+- Préparer une diversion arcanique via les cryptographes pour saturer les capteurs de brume.
 
 ## Questions pour vous
 - Quelle option principale choisissez-vous parmi celles ci-dessus ?
-- Souhaitez-vous mobiliser des alliés (Maelis, Ilyana, autres) ou des ressources spécifiques ?
+- Souhaitez-vous employer les ressources de Maelis (mandats, messagers, cryptographes) et comment ?
+- Quelles précautions prenez-vous vis-à-vis des Lames de Cobalte pendant l'opération ?
 - Y a-t-il une question supplémentaire à laquelle l'agent doit répondre avant l'action ?
 
 ## Comment répondre
-Indiquez votre décision en répondant point par point (option choisie, ressources/alliés, questions supplémentaires). Votre réponse deviendra le prompt de l'itération suivante.
+Indiquez votre décision en répondant point par point (option choisie, ressources/alliés, précautions, questions supplémentaires). Votre réponse deviendra le prompt de l'itération suivante.
