@@ -6,3 +6,4 @@
 - 2025-09-27 | Résolution de la scène du Conseil : Lyra refuse l'escorte, identification de la piste Kaelith et mise à jour des données de session et d'état du monde.
 - 2025-09-28 | Ajout des directives de réponse aux questions du joueur, création du journal narratif de session et mise à jour du README.
 - 2025-09-29 | Formalisation du terminal d'interaction joueur, narration de la filature de Kaelith et mise à jour des états du monde et des jets correspondants.
+- 2025-09-30 | Clarification de la logique de conduite de partie dans `AGENTS.md` et ajout des directives de jets de dés basées sur la console dans la documentation.
