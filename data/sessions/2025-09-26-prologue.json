@@ -7,7 +7,8 @@
   "objectifs": [
     {
       "description": "Sécuriser un sauf-conduit diplomatique vers les clans de Thorgar.",
-      "etat": "en_cours"
+      "etat": "en_cours",
+      "notes": "Sauf-conduit obtenu sans escorte grâce à l'intervention de la chancelière Maelis."
     },
     {
       "description": "Identifier l'origine des résidus d'ombre découverts dans les réservoirs de brume de Valoria.",
@@ -30,11 +31,17 @@
           "difficulte": 12,
           "modificateurs": ["Avantage si Lyra invoque son lien avec la chancelière Maelis"],
           "reussite": "Obtention d'un sauf-conduit et d'un messager officiel.",
-          "echec": "Le conseil impose un chevalier escortant chargé de surveiller Lyra."
+          "echec": "Le conseil impose un chevalier escortant chargé de surveiller Lyra.",
+          "resultat": "Jet réussi (18) : Maelis annule l'escorte des Lames de Cobalte et valide le sauf-conduit."
         }
       ],
       "complications": ["Interruption par la maison Lames de Cobalte qui dévoile un témoin compromettant."],
-      "informations": ["Rumeurs de rituels interdits menés dans les catacombes du quartier des artificiers."]
+      "informations": ["Rumeurs de rituels interdits menés dans les catacombes du quartier des artificiers."],
+      "etat": "résolu",
+      "resultats": [
+        "Lyra exploite son lien avec Maelis Veyr pour rejeter publiquement l'escorte imposée.",
+        "Profitant de la confusion, elle déclenche un voile de brume et disparaît avant que les Lames de Cobalte puissent réagir."
+      ]
     },
     {
       "ordre": 2,
@@ -57,7 +64,11 @@
         }
       ],
       "complications": ["Manifestation mineure de l'Ombre : tentacules de brume qui affaiblissent les tests de Magie."],
-      "informations": ["Serelune craint une alliance Valoria/Thorgar et prépare une contre-propagande."]
+      "informations": ["Serelune craint une alliance Valoria/Thorgar et prépare une contre-propagande."],
+      "pistes": [
+        "Lyra a identifié Kaelith parmi les observateurs et soupçonne une coalition anti-trêve mêlant Serelune et une maison valorienne rivale.",
+        "Une silhouette encapuchonnée a détourné l'attention des gardes au même instant que la fuite de Lyra, suggérant une complicité interne."
+      ]
     },
     {
       "ordre": 3,
@@ -86,7 +97,7 @@
   "decisions_attendues": [
     "Lyra priorise-t-elle la diplomatie ou la traque de l'espion après le conseil ?",
     "Utilisera-t-elle les messages chiffrés pour négocier avec Serelune ou les remettre au Conseil ?",
-    "Acceptera-t-elle la présence d'un chevalier escortant imposé par les nobles ?"
+    "Quelle piste suivra-t-elle pour confirmer l'existence du complot visant la trêve ?"
   ],
   "cliffhanger_prevu": "Au terme de la session, une fissure de l'Ombre s'ouvrira sous la citerne, révélant une voix qui connaît le passé de Lyra.",
   "preparation_prochaine_session": [
