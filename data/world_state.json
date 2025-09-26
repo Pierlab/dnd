@@ -1,6 +1,146 @@
 {
-  "timeline": [],
-  "factions": {},
-  "regions": {},
-  "global_effects": []
+  "timeline": [
+    {
+      "date": "2025-09-26",
+      "arc": "Arc I – Braises d'Empire",
+      "saison": "Automne 1235 FA",
+      "session": "2025-09-26-A",
+      "evenement": "Lyra Valen est mandatée par le Conseil valorien pour enquêter sur une corruption de brume et initier une trêve avec Thorgar.",
+      "impact": [
+        "Tension accrue entre Valoria et les Lames de Cobalte.",
+        "Soupçons renforcés envers les espions de Serelune dans la capitale.",
+        "Première manifestation notable de l'Ombre à Valoria depuis six mois."
+      ]
+    }
+  ],
+  "factions": {
+    "Valoria": {
+      "leader": "Conseil des Huit Blasons",
+      "etat": "Fragilisé par des luttes internes",
+      "ressources": {
+        "militaire": 3,
+        "arcanique": 2,
+        "politique": 4
+      },
+      "diplomatie": {
+        "Thorgar": "Trêve précaire",
+        "Serelune": "Rivalité maritime",
+        "Khar'Seth": "Négociations suspendues"
+      },
+      "objectifs": [
+        "Stabiliser l'approvisionnement en brume.",
+        "Empêcher Serelune de former une coalition navale."
+      ],
+      "menaces": [
+        "Infiltration des Veilleurs du Voile",
+        "Usure des Lames de Cobalte"
+      ]
+    },
+    "Thorgar": {
+      "leader": "Haute Jarl Freyda Marteau-d'Orage",
+      "etat": "Sur la défensive",
+      "ressources": {
+        "militaire": 4,
+        "arcanique": 1,
+        "politique": 2
+      },
+      "diplomatie": {
+        "Valoria": "Trêve précaire",
+        "Serelune": "Commerce restreint",
+        "Khar'Seth": "Neutralité distante"
+      },
+      "objectifs": [
+        "Obtenir des concessions commerciales sur le cristal solaire.",
+        "Éviter une guerre totale avec Valoria."
+      ],
+      "menaces": [
+        "Famine hivernale imminente",
+        "Agitateurs pro-guerre au sein du clan Marok"
+      ]
+    },
+    "Serelune": {
+      "leader": "Grande Oracle Neris des Marées",
+      "etat": "Opportuniste",
+      "ressources": {
+        "militaire": 3,
+        "arcanique": 4,
+        "politique": 3
+      },
+      "diplomatie": {
+        "Valoria": "Rivalité maritime",
+        "Thorgar": "Commerce restreint",
+        "Khar'Seth": "Traité secret"
+      },
+      "objectifs": [
+        "Saboter les négociations Valoria/Thorgar.",
+        "Canaliser l'Ombre pour alimenter la flotte."
+      ],
+      "menaces": [
+        "Instabilité des marées magiques",
+        "Division entre le clergé et les corsaires"
+      ]
+    },
+    "Khar'Seth": {
+      "leader": "Hiérophante Solarys",
+      "etat": "Expansionniste",
+      "ressources": {
+        "militaire": 4,
+        "arcanique": 2,
+        "politique": 2
+      },
+      "diplomatie": {
+        "Valoria": "Négociations suspendues",
+        "Thorgar": "Neutralité distante",
+        "Serelune": "Traité secret"
+      },
+      "objectifs": [
+        "Sécuriser les routes du désert contre les cultes de l'Ombre.",
+        "Exploiter la crise pour imposer un embargo sacré."
+      ],
+      "menaces": [
+        "Rébellions internes dans l'oasis de Miraz",
+        "Corruption croissante autour des temples du Soleil Voilé"
+      ]
+    }
+  },
+  "regions": {
+    "Capitale valorienne": {
+      "controle": "Valoria",
+      "conditions": ["Brumes instables", "Veille militaire renforcée"],
+      "anomalies": ["Résidus d'Ombre sous la citerne principale"],
+      "menaces": ["Veilleurs du Voile", "Espions de Serelune"]
+    },
+    "Montagnes de Thorgar": {
+      "controle": "Thorgar",
+      "conditions": ["Premières neiges", "Routes commerciales fermées"],
+      "anomalies": [],
+      "menaces": ["Famine", "Agitateurs du clan Marok"]
+    },
+    "Archipel de Serelune": {
+      "controle": "Serelune",
+      "conditions": ["Marées imprévisibles", "Voiles d'illusion"],
+      "anomalies": ["Tempêtes d'ombre sporadiques"],
+      "menaces": ["Corsaires dissidents", "Rituels incontrôlés"]
+    },
+    "Désert de Khar'Seth": {
+      "controle": "Khar'Seth",
+      "conditions": ["Vents brûlants", "Processions sacrées"],
+      "anomalies": ["Mirages arcanes"],
+      "menaces": ["Rébellion des porteurs de cristal", "Cultes de l'Ombre dans les dunes"]
+    }
+  },
+  "global_effects": [
+    {
+      "nom": "Ombre d'Ashkar",
+      "niveau": 2,
+      "tendance": "stable",
+      "description": "L'influence de l'Ombre se manifeste par des résidus dans la brume valorienne et des visions partagées parmi les oracles."
+    },
+    {
+      "nom": "Trêve fragile",
+      "niveau": 1,
+      "tendance": "dégringolade",
+      "description": "L'accord entre Valoria et Thorgar tient à la réussite de la mission diplomatique de Lyra."
+    }
+  ]
 }
