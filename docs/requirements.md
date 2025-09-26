@@ -3,7 +3,7 @@
 ## 1. Vision générale
 - **Type de projet** : campagne de jeu de rôle Donjons & Dragons (D&D 5e inspiré) pilotée via un dépôt Git.
 - **Objectif** : offrir une expérience narrative persistante où chaque session influence durablement l'état du monde.
-- **Mode d'interaction** : le joueur consigne ses décisions et actions dans un fichier Markdown partagé (`player_input.md`). L'agent lit ce fichier à chaque itération pour adapter la narration, effectuer les jets de dés et mettre à jour les données.
+- **Mode d'interaction** : le joueur consigne ses décisions et actions dans un fichier Markdown partagé (`player_input.md`). L'agent lit ce fichier à chaque itération pour adapter la narration, effectuer les jets de dés et mettre à jour les données. À partir du 2025-09-29, `player_input.md` est réécrit par l'agent à chaque tour pour résumer la situation et demander explicitement au joueur quelles suites il choisit. La réponse du joueur sert de prompt direct pour l'itération suivante.
 
 ## 2. Contexte narratif
 ### 2.1 Cadre historique
@@ -218,10 +218,15 @@ Chaque arc est composé de plusieurs **chapitres**. Chaque partie de jeu doit :
 - Choix proposés pour les suites
 ```
 L'agent lit le fichier, interprète les intentions et réalise les jets de dés nécessaires.
+À partir du nouveau mode d'itération :
+- `player_input.md` sert de terminal de dialogue ; chaque réponse de l'agent inclut une version mise à jour du fichier qui formule clairement les choix offerts au joueur.
+- Le joueur répond en éditant le fichier (ou en envoyant un message reprenant les champs demandés) et cette réponse devient le prompt de l'agent pour la scène suivante.
+- Les sections peuvent être adaptées pour refléter la scène en cours (ex. remplacer "Actions proposées" par "Options immédiates"), mais doivent toujours expliciter les décisions attendues.
+
 Chaque réponse de l'agent doit :
 - traiter explicitement toutes les questions posées dans `player_input.md` ;
 - actualiser les données pertinentes (état du monde, journaux, fiches) ;
-- préparer un nouveau `player_input.md` focalisé sur la scène suivante.
+- préparer un nouveau `player_input.md` focalisé sur la scène suivante avec des instructions claires de réponse.
 
 ## 9. Contenu additionnel
 - **PNJ majeurs** : liste initiale (généraux, diplomates, espions, mentors) avec arcs personnels.

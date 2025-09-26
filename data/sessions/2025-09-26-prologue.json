@@ -53,21 +53,28 @@
           "difficulte": 14,
           "modificateurs": ["Désavantage si Lyra est accompagnée par un garde encombrant"],
           "reussite": "Lyra intercepte Kaelith et obtient un fragment de carte menant à un culte de l'Ombre.",
-          "echec": "Kaelith s'échappe et répand de fausses informations sur Valoria."
+          "echec": "Kaelith s'échappe et répand de fausses informations sur Valoria.",
+          "resultat": "Jet réussi (17) : traque discrète jusqu'à une planque reliée à la maison Dyrion."
         },
         {
           "type": "Crochetage",
           "difficulte": 10,
           "modificateurs": ["Avantage avec le sachet de poussière de brume"],
           "reussite": "Accès à une planque contenant des messages chiffrés.",
-          "echec": "Piège arcanique déclenché : Lyra subit 1d6 dégâts de froid."
+          "echec": "Piège arcanique déclenché : Lyra subit 1d6 dégâts de froid.",
+          "resultat": "Jet réussi (16 avec avantage) : récupération d'un tube cristallin sans alarme."
         }
       ],
       "complications": ["Manifestation mineure de l'Ombre : tentacules de brume qui affaiblissent les tests de Magie."],
       "informations": ["Serelune craint une alliance Valoria/Thorgar et prépare une contre-propagande."],
+      "progres": [
+        "Identification d'une entremetteuse de la maison Dyrion recevant des rapports de Kaelith.",
+        "Obtention du message chiffré « Glas de la Trêve » et d'une carte partielle des conduits de la citerne."
+      ],
       "pistes": [
         "Lyra a identifié Kaelith parmi les observateurs et soupçonne une coalition anti-trêve mêlant Serelune et une maison valorienne rivale.",
-        "Une silhouette encapuchonnée a détourné l'attention des gardes au même instant que la fuite de Lyra, suggérant une complicité interne."
+        "Une silhouette encapuchonnée a détourné l'attention des gardes au même instant que la fuite de Lyra, suggérant une complicité interne.",
+        "Les catacombes des artificiers contiennent un accès discret aux conduits de la citerne, surveillé par des glyphes sereluniens."
       ]
     },
     {
@@ -95,9 +102,9 @@
     }
   ],
   "decisions_attendues": [
-    "Lyra priorise-t-elle la diplomatie ou la traque de l'espion après le conseil ?",
-    "Utilisera-t-elle les messages chiffrés pour négocier avec Serelune ou les remettre au Conseil ?",
-    "Quelle piste suivra-t-elle pour confirmer l'existence du complot visant la trêve ?"
+    "Comment Lyra exploite-t-elle le message chiffré « Glas de la Trêve » ?",
+    "Prend-elle le risque d'infiltrer immédiatement les conduits de la citerne ou cherche-t-elle d'abord des alliés ?",
+    "Qui confronte-t-elle en priorité entre Kaelith, la maison Dyrion et le Conseil ?"
   ],
   "cliffhanger_prevu": "Au terme de la session, une fissure de l'Ombre s'ouvrira sous la citerne, révélant une voix qui connaît le passé de Lyra.",
   "preparation_prochaine_session": [

@@ -23,6 +23,18 @@
         "Les Lames de Cobalte soupçonnent une fuite d'informations interne et resserrent leurs surveillances.",
         "Indice d'un complot anti-trêve reliant Serelune à une maison noble valorienne."
       ]
+    },
+    {
+      "date": "2025-09-29",
+      "arc": "Arc I – Braises d'Empire",
+      "saison": "Automne 1235 FA",
+      "session": "2025-09-26-A",
+      "evenement": "Lyra infiltre les catacombes des artificiers, surprend un échange entre Kaelith et un agent de la maison Dyrion et récupère le plan codé de l'opération Glas de la Trêve.",
+      "impact": [
+        "La maison Dyrion est soupçonnée de complicité avec Serelune dans le sabotage de la trêve.",
+        "Lyra obtient une carte partielle des conduits de la citerne, ouvrant une piste d'infiltration.",
+        "La cellule serelunienne active des mesures d'urgence pour sécuriser Kaelith."
+      ]
     }
   ],
   "factions": {
@@ -46,7 +58,8 @@
       "menaces": [
         "Infiltration des Veilleurs du Voile",
         "Usure des Lames de Cobalte",
-        "Complot anti-trêve au sein du Conseil"
+        "Complot anti-trêve au sein du Conseil",
+        "Complicité potentielle de la maison Dyrion"
       ]
     },
     "Thorgar": {
@@ -154,7 +167,7 @@
       "nom": "Trêve fragile",
       "niveau": 1,
       "tendance": "dégringolade",
-      "description": "L'accord entre Valoria et Thorgar dépend désormais de la capacité de Lyra à déjouer le complot anti-trêve tout en sécurisant le sauf-conduit."
+      "description": "L'accord entre Valoria et Thorgar dépend désormais de la capacité de Lyra à déjouer l'opération Glas de la Trêve tout en sécurisant le sauf-conduit."
     }
   ]
 }
