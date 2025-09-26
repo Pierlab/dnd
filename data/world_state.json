@@ -35,6 +35,18 @@
         "Lyra obtient une carte partielle des conduits de la citerne, ouvrant une piste d'infiltration.",
         "La cellule serelunienne active des mesures d'urgence pour sécuriser Kaelith."
       ]
+    },
+    {
+      "date": "2025-09-30",
+      "arc": "Arc I – Braises d'Empire",
+      "saison": "Automne 1235 FA",
+      "session": "2025-09-26-A",
+      "evenement": "Lyra avertit Maelis du complot de la maison Dyrion et purifie la citerne principale, contrecarrant l'opération Glas de la Trêve.",
+      "impact": [
+        "Maelis mobilise un réseau loyal pour couvrir les actions clandestines de Lyra.",
+        "La citerne valorienne est débarrassée du condensat d'Ombre, révélant un filament résiduel menant vers les agents sereluniens.",
+        "Les Lames de Cobalte renforcent les patrouilles dans les galeries de maintenance, augmentant la pression sur les infiltrés."
+      ]
     }
   ],
   "factions": {
@@ -59,7 +71,8 @@
         "Infiltration des Veilleurs du Voile",
         "Usure des Lames de Cobalte",
         "Complot anti-trêve au sein du Conseil",
-        "Complicité potentielle de la maison Dyrion"
+        "Complicité avérée de la maison Dyrion dans Glas de la Trêve",
+        "Patrouilles des Lames de Cobalte en alerte dans les galeries"
       ]
     },
     "Thorgar": {
@@ -104,7 +117,8 @@
       "menaces": [
         "Instabilité des marées magiques",
         "Division entre le clergé et les corsaires",
-        "Couverture de Kaelith compromise à Valoria"
+        "Couverture de Kaelith compromise à Valoria",
+        "Filament d'Ombre traçable vers le coordinateur"
       ]
     },
     "Khar'Seth": {
@@ -133,41 +147,71 @@
   "regions": {
     "Capitale valorienne": {
       "controle": "Valoria",
-      "conditions": ["Brumes instables", "Veille militaire renforcée"],
-      "anomalies": ["Résidus d'Ombre sous la citerne principale"],
-      "menaces": ["Veilleurs du Voile", "Espions de Serelune"]
+      "conditions": [
+        "Brumes instables",
+        "Veille militaire renforcée"
+      ],
+      "anomalies": [
+        "Résidus d'Ombre sous la citerne principale"
+      ],
+      "menaces": [
+        "Veilleurs du Voile",
+        "Espions de Serelune"
+      ]
     },
     "Montagnes de Thorgar": {
       "controle": "Thorgar",
-      "conditions": ["Premières neiges", "Routes commerciales fermées"],
+      "conditions": [
+        "Premières neiges",
+        "Routes commerciales fermées"
+      ],
       "anomalies": [],
-      "menaces": ["Famine", "Agitateurs du clan Marok"]
+      "menaces": [
+        "Famine",
+        "Agitateurs du clan Marok"
+      ]
     },
     "Archipel de Serelune": {
       "controle": "Serelune",
-      "conditions": ["Marées imprévisibles", "Voiles d'illusion"],
-      "anomalies": ["Tempêtes d'ombre sporadiques"],
-      "menaces": ["Corsaires dissidents", "Rituels incontrôlés"]
+      "conditions": [
+        "Marées imprévisibles",
+        "Voiles d'illusion"
+      ],
+      "anomalies": [
+        "Tempêtes d'ombre sporadiques"
+      ],
+      "menaces": [
+        "Corsaires dissidents",
+        "Rituels incontrôlés"
+      ]
     },
     "Désert de Khar'Seth": {
       "controle": "Khar'Seth",
-      "conditions": ["Vents brûlants", "Processions sacrées"],
-      "anomalies": ["Mirages arcanes"],
-      "menaces": ["Rébellion des porteurs de cristal", "Cultes de l'Ombre dans les dunes"]
+      "conditions": [
+        "Vents brûlants",
+        "Processions sacrées"
+      ],
+      "anomalies": [
+        "Mirages arcanes"
+      ],
+      "menaces": [
+        "Rébellion des porteurs de cristal",
+        "Cultes de l'Ombre dans les dunes"
+      ]
     }
   },
   "global_effects": [
     {
       "nom": "Ombre d'Ashkar",
       "niveau": 2,
-      "tendance": "stable",
-      "description": "L'influence de l'Ombre se manifeste par des résidus dans la brume valorienne et des visions partagées parmi les oracles."
+      "tendance": "recul léger",
+      "description": "La purge de la citerne apaise l'influence immédiate de l'Ombre, mais des filaments résiduels subsistent dans les réseaux clandestins."
     },
     {
       "nom": "Trêve fragile",
       "niveau": 1,
-      "tendance": "dégringolade",
-      "description": "L'accord entre Valoria et Thorgar dépend désormais de la capacité de Lyra à déjouer l'opération Glas de la Trêve tout en sécurisant le sauf-conduit."
+      "tendance": "stabilisation",
+      "description": "La neutralisation du condensat d'Ombre sécurise temporairement l'accord Valoria/Thorgar, bien que la maison Dyrion reste à neutraliser."
     }
   ]
 }

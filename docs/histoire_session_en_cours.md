@@ -22,3 +22,20 @@ Ce journal recueille l'évolution détaillée de la partie actuelle. Chaque inte
 - Sur la loyauté du chevalier proposé : il s'agit de Dame Ilyana Corven, loyaliste aux Lames de Cobalte mais redevable envers la maison Dyrion ; sa loyauté principale reste tournée vers la protection de Valoria.
 - Risques en cas d'échec de la purification : la pression de brume provoquerait une onde de froid qui toucherait d'abord les quartiers artisans, puis provoquerait des fissures qui exposeraient le palais à l'Ombre.
 - Préparation du jet de Connaissances : les glyphes récupérés offriront un avantage si Lyra prend le temps de les analyser ou de les confier à Maelis pour traduction.
+
+## 2025-09-30T12:20:00Z
+
+### Résumé narratif
+- Lyra tente de regagner la chancellerie par les galeries de maintenance, mais un voileur des Lames perçoit la vibration de brume qu'elle laisse dans son sillage ; elle doit brûler du temps pour effacer sa trace avant d'atteindre Maelis.
+- Une fois dans le cabinet scellé de la chancelière, elle expose le rôle de la maison Dyrion et livre le tube cristallin : Maelis dépêche ses cryptographes et active un protocole d'urgence pour isoler les quartiers loyaux.
+- L'analyse fulgurante du code « Glas de la Trêve » révèle que la citerne devait être noyée par un condensat d'Ombre ; Lyra, munie d'un cercle de purge improvisé par Maelis, s'infiltre dans les conduits et affronte la nappe corrompue.
+- Elle trace les glyphes inversés et déclenche la purge : la citerne vomit un geyser d'aigue-blafarde avant de revenir à un flux stable, mais l'onde de choc alerte les agents de Dyrion qui verrouillent désormais les accès secondaires.
+
+### Conséquences mécaniques
+- Jet de Déplacement (d20, difficulté 13) échoué avec un résultat de 9 : suspicion accrue des Lames de Cobalte, déclenchant des patrouilles renforcées dans les galeries.
+- Jet de Connaissances (d20 avec avantage grâce aux glyphes et aux cryptographes, difficulté 15) réussite critique avec un résultat de 20 : le protocole de sabotage est décodé et ses relais révélés.
+- Jet de Magie (d20, difficulté 13) réussi avec un résultat de 13 : la citerne principale est purifiée mais laisse un contrecoup d'énergie détectable.
+
+### Questions du joueur et réponses
+- Soutien de Maelis : elle met à disposition un relais de messagers et des agents loyaux capables d'occuper les Lames pendant que Lyra agit.
+- Conséquences immédiates : la maison Dyrion resserre la sécurité et tente de comprendre pourquoi la citerne est revenue à la normale, offrant une fenêtre étroite avant leur riposte.
