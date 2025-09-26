@@ -64,6 +64,7 @@ Chaque arc est composé de plusieurs **chapitres**. Chaque partie de jeu doit :
 ### 4.1 Structure du dépôt
 ```
 /README.md                  — aperçu du projet
+/docs/histoire_session_en_cours.md — journal narratif incrémental de la session
 /docs/requirements.md       — ce document
 /data/world_state.json      — état global du monde (royaumes, cartes, événements)
 /data/sessions/<date>.json  — journal des sessions
@@ -189,6 +190,7 @@ Chaque arc est composé de plusieurs **chapitres**. Chaque partie de jeu doit :
 3. **Scène 2** : complication croissante.
 4. **Scène 3** : confrontation majeure.
 5. **Épilogue** : conséquences, hooks pour la suite.
+6. **Synthèse** : consigner dans `docs/histoire_session_en_cours.md` les événements narratifs, jets notables et réponses aux questions du joueur.
 
 ### 7.3 Post-session
 - Mettre à jour `world_state.json` (factions, régions, timeline).
@@ -216,6 +218,10 @@ Chaque arc est composé de plusieurs **chapitres**. Chaque partie de jeu doit :
 - Choix proposés pour les suites
 ```
 L'agent lit le fichier, interprète les intentions et réalise les jets de dés nécessaires.
+Chaque réponse de l'agent doit :
+- traiter explicitement toutes les questions posées dans `player_input.md` ;
+- actualiser les données pertinentes (état du monde, journaux, fiches) ;
+- préparer un nouveau `player_input.md` focalisé sur la scène suivante.
 
 ## 9. Contenu additionnel
 - **PNJ majeurs** : liste initiale (généraux, diplomates, espions, mentors) avec arcs personnels.
